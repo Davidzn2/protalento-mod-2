@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Bienvenidos</h2>
+    <div class="elementToEdit1">
+      <h3>hola</h3>
+    </div>
+    <div id="colorin">
+      <h2>Soy de colores</h2>
+      <button onclick="changeStyle()">Cambiame de Color a verde</button>
+    </div>
+    <div>
+      <input id="nombre" type="text" placeholder="Nombre" />
+      <button id="saveName" onclick="saveName()">Guardar Nombre</button>
+    </div>
+    <div>
+      <input id="suma1" type="number" placeholder="Sumar 1" />
+      <input id="suma2" type="number" placeholder="Sumar 2" />
+      <button id="sumar" onclick="sumar()">Sumar</button>
+      <button id="restar" onclick="restar()">Restar</button>
+      <span id="resultado"></span>
+    </div>
+    <input type="number" placeholder="calcu" id="calcu" />
+    <div onclick="setValue(1)" class="botonCalcu">1</div>
+    <script src="app.js"></script>
+  </body>
+</html>
